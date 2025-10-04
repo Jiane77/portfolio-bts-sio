@@ -30,10 +30,11 @@ const Internship = () => {
   }
 
   const missions = [
-    "Développement d'une application web de gestion des stocks",
-    "Intégration d'APIs REST pour la synchronisation des données",
-    "Optimisation des performances et de la sécurité",
-    "Rédaction de documentation technique",
+    "Création d’une page utilisateur pour le téléchargement d’un guide avec PHP, Symfony et Twig, incluant formulaire interactif et envoi automatisé d’e-mails (entreprise et client avec PDF).",
+    "Développement d’un blog d’articles avec gestion de contenu via YAML et optimisation SEO (titres, métadonnées, structure).",
+    "Intégration et personnalisation de templates Twig pour adapter les designs existants",
+    "Conception d’interfaces responsives avec CSS Flexbox et Bootstrap.",
+    "Mise en place d’un carousel dynamique de logos (Bootstrap + PHP)",
     "Participation aux réunions d'équipe et méthodologie Agile"
   ]
 
@@ -68,8 +69,8 @@ const Internship = () => {
                 <div className="flex items-center mb-6">
                   <Building2 className="w-8 h-8 text-blue-400 mr-4" />
                   <div>
-                    <h3 className="text-2xl font-semibold text-white">Stage de Développement</h3>
-                    <p className="text-blue-300">TechSolutions SARL</p>
+                    <h3 className="text-2xl font-semibold text-white">Stage de Développement web</h3>
+                    <p className="text-blue-300"><b>Layan</b></p>
                   </div>
                 </div>
 
@@ -78,14 +79,14 @@ const Internship = () => {
                     <Calendar className="w-5 h-5 text-blue-400" />
                     <div>
                       <p className="text-white font-medium">Durée</p>
-                      <p className="text-gray-300 text-sm">8 semaines</p>
+                      <p className="text-gray-300 text-sm">7 semaines</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <MapPin className="w-5 h-5 text-blue-400" />
                     <div>
                       <p className="text-white font-medium">Lieu</p>
-                      <p className="text-gray-300 text-sm">Lyon, France</p>
+                      <p className="text-gray-300 text-sm">Paris, France</p>
                     </div>
                   </div>
                 </div>
@@ -93,9 +94,8 @@ const Internship = () => {
                 <div className="mb-6">
                   <h4 className="text-white font-semibold mb-3">À propos de l'entreprise</h4>
                   <p className="text-gray-300 leading-relaxed">
-                    TechSolutions est une PME spécialisée dans le développement de solutions logicielles 
-                    pour les entreprises. L'équipe de 15 développeurs travaille principalement sur des 
-                    applications web et mobiles pour divers secteurs d'activité.
+                   <b><a href='https://www.layan.eu'>Layan</a></b> est une entreprise française spécialisée dans les solutions logicielles de recrutement. 
+                    Elle propose une plateforme qui aide les entreprises à publier leurs offres d’emploi, gérer les candidatures et automatiser le processus de recrutement grâce à des outils modernes et à l’intelligence artificielle. Layan s’adresse principalement aux PME et grandes entreprises et est disponible en France et à l’international.
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ const Internship = () => {
               <div className="bg-gradient-to-br from-green-500/10 to-blue-500/10 rounded-2xl p-8 border border-green-500/20">
                 <h4 className="text-xl font-semibold text-white mb-6">Technologies Utilisées</h4>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-                  {['PHP', 'Symfony', 'MySQL', 'JavaScript', 'Bootstrap', 'Git', 'Postman', 'Jira'].map((tech) => (
+                  {['PHP', 'Symfony','twig','Yaml','composant','JavaScript', 'Bootstrap', 'Git', 'Jira'].map((tech) => (
                     <div key={tech} className="bg-slate-800/50 text-center py-2 px-3 rounded-lg">
                       <span className="text-gray-300 text-sm font-medium">{tech}</span>
                     </div>
@@ -172,14 +172,14 @@ const Internship = () => {
             className="mt-16 grid md:grid-cols-3 gap-8"
           >
             <div className="text-center bg-slate-700/30 rounded-xl p-6">
-              <div className="text-3xl font-bold text-blue-400 mb-2">8</div>
+              <div className="text-3xl font-bold text-blue-400 mb-2">7</div>
               <div className="text-white font-medium">Semaines</div>
               <div className="text-gray-400 text-sm">D'expérience</div>
             </div>
             <div className="text-center bg-slate-700/30 rounded-xl p-6">
-              <div className="text-3xl font-bold text-green-400 mb-2">3</div>
-              <div className="text-white font-medium">Projets</div>
-              <div className="text-gray-400 text-sm">Développés</div>
+              <div className="text-3xl font-bold text-green-400 mb-2">5</div>
+              <div className="text-white font-medium">tickets</div>
+              <div className="text-gray-400 text-sm">réalisés</div>
             </div>
             <div className="text-center bg-slate-700/30 rounded-xl p-6">
               <div className="text-3xl font-bold text-purple-400 mb-2">15</div>
