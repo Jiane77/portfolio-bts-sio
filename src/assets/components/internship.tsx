@@ -151,7 +151,7 @@ const Internship = () => {
                   ))}
                 </div>
               </div>
-
+              <div className="flex justify-center items-center">
               <div className="bg-slate-700/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-600/50">
                 <h4 className="text-xl font-semibold text-white mb-4">Bilan du Stage</h4>
                 <p className="text-gray-300 leading-relaxed mb-4">
@@ -163,6 +163,7 @@ const Internship = () => {
                   Le stage a renforcé ma motivation pour poursuivre dans le développement web 
                   et m'a donné une vision claire de mes objectifs professionnels.
                 </p>
+              </div>
               </div>
             </motion.div>
           </div>
@@ -182,9 +183,9 @@ const Internship = () => {
               <div className="text-gray-400 text-sm">réalisés</div>
             </div>
             <div className="text-center bg-slate-700/30 rounded-xl p-6">
-              <div className="text-3xl font-bold text-purple-400 mb-2">15</div>
-              <div className="text-white font-medium">Collaborateurs</div>
-              <div className="text-gray-400 text-sm">Dans l'équipe</div>
+              <div className="text-2xl font-bold text-purple-600 mb-2">Une équipe</div>
+              <div className="text-white font-medium">de créateurs</div>
+              <div className="text-gray-400 text-sm">Inspirante et motivante</div>
             </div>
           </motion.div>
         </motion.div>

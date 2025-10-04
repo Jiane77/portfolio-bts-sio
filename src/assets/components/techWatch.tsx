@@ -18,7 +18,7 @@ const TechWatch = () => {
       date: "15 Mars 2024",
       category: "Frontend",
       image: "https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg",
-      link: "#"
+      link: "https://kingsoft-digital.com/article/javascript-en-2024-le-langage-de-programmation-le-plus-utilise-au-monde"
     },
     {
       title: "Sécurité des APIs REST",
@@ -27,7 +27,7 @@ const TechWatch = () => {
       date: "10 Mars 2024",
       category: "Sécurité",
       image: "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg",
-      link: "#"
+      link: "https://owasp.org/API-Security/editions/2023/en/0x00-header/?utm_source=chatgpt.com"
     },
     {
       title: "Docker et DevOps",
@@ -36,7 +36,7 @@ const TechWatch = () => {
       date: "5 Mars 2024",
       category: "DevOps",
       image: "https://images.pexels.com/photos/3184464/pexels-photo-3184464.jpeg",
-      link: "#"
+      link: "https://www.devuniversity.com/blog/docker-pour-devops-pourquoi-lutiliser-comment-ladopter?utm_source=chatgpt.com"
     },
     {
       title: "Intelligence Artificielle en développement",
@@ -45,7 +45,7 @@ const TechWatch = () => {
       date: "1 Mars 2024",
       category: "IA",
       image: "https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg",
-      link: "#"
+      link: "https://github.com/features/copilot?utm_source=chatgpt.com"
     }
   ]
 
