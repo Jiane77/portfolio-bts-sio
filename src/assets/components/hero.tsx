@@ -61,15 +61,16 @@ const Hero = () => {
             >
               <span>Voir mes projets</span>
             </motion.button>
-
-            <motion.button
-              className="border border-purple-400 text-purple-400 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-purple-400 hover:text-white transition-all duration-300 flex items-center space-x-2"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <Download className="w-5 h-5" />
-              <span>Télécharger CV</span>
-            </motion.button>
+            <motion.a
+             href="/cvalternancebtsslam.pdf"         
+             download                   
+             className="border border-purple-400 text-purple-400 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-purple-400 hover:text-white transition-all duration-300 flex items-center space-x-2"
+             whileHover={{ scale: 1.05 }}
+             whileTap={{ scale: 0.95 }}
+            >           
+             <Download className="w-5 h-5" />
+             <span>Télécharger CV</span>
+             </motion.a>
 
             <motion.button
               className="border border-gray-400 text-gray-400 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-400 hover:text-white transition-all duration-300 flex items-center space-x-2"
