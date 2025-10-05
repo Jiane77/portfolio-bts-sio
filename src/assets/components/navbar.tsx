@@ -21,7 +21,8 @@ const Navbar = () => {
     { name: 'Compétences', href: '#skills' },
     { name: 'Projets', href: '#projects' },
     { name: 'Stage', href: '#internship' },
-    { name: 'Veille Tech', href: '#techwatch' }
+    { name: 'Veille Tech', href: '#techwatch' },
+    { name: 'Contact', href: '#contact' }
   ]
 
   const scrollToSection = (href: string) => {
