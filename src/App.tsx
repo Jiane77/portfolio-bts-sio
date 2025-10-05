@@ -8,6 +8,8 @@ import Skills from './assets/components/skills'
 import Projects from './assets/components/projetcs'
 import Internship from './assets/components/internship'
 import TechWatch from './assets/components/techWatch'
+import Contact from './assets/components/contact'  
+
 
 function App() {
   return (
@@ -27,10 +29,11 @@ function App() {
               <Projects />
               <Internship />
               <TechWatch />
+              <Contact />
             </motion.div>
           } />
         </Routes>
-      </div>
+      </div>                                
     </Router>
   )
 }
