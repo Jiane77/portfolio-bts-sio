@@ -1,5 +1,3 @@
-
-import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import {Building2, Calendar, MapPin, Users, Code2, Award} from 'lucide-react'
