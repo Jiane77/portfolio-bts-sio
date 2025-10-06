@@ -1,7 +1,5 @@
-
-import React from 'react'
 import { motion } from 'framer-motion'
-import {ChevronDown, Download, Mail} from 'lucide-react'
+import {ChevronDown, Download} from 'lucide-react'
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -47,43 +45,37 @@ const Hero = () => {
             je suis analyste développeuse et je conçois des applications modernes et performantes.
           </motion.p>
 
+          {/* Boutons Voir mes projets / Télécharger CV */}
           <motion.div 
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+            className="flex flex-col sm:flex-row gap-6 justify-center items-center"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.6 }}
           >
             <motion.button
               onClick={() => scrollToSection('#projects')}
-              className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-lg transition-all duration-300 flex items-center space-x-2"
+              className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-lg transition-all duration-300 flex items-center justify-center space-x-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               <span>Voir mes projets</span>
             </motion.button>
+            
             <motion.a
               href="/cvalternancebtsslam.pdf"         
               download                   
-              className="border border-purple-400 text-purple-400 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-purple-400 hover:text-white transition-all duration-300 flex items-center space-x-2"
+              className="border border-purple-400 text-purple-400 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-purple-400 hover:text-white transition-all duration-300 flex items-center justify-center space-x-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               <Download className="w-5 h-5" />
               <span>Télécharger CV</span>
-              </motion.a>
-
-            <motion.button
-              className="border border-gray-400 text-gray-400 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-400 hover:text-white transition-all duration-300 flex items-center space-x-2"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <Mail className="w-5 h-5" />
-              <span>Me contacter</span>
-            </motion.button>
+            </motion.a>
           </motion.div>
 
+          {/* Flèche vers la section About */}
           <motion.div
-            className="pt-16"
+            className="pt-16 flex justify-center"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1 }}
