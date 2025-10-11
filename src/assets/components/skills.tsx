@@ -167,11 +167,12 @@ const Skills = () => {
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-slate-800/50 rounded-lg p-4">
                 <h4 className="text-white font-medium mb-2">
-                  Certification CNIL
+                  MOOC SecNumacadémie
                 </h4>
                 <p className="text-gray-300 text-sm">
                   Protection des données personnelles
                 </p>
+                <a href="certificatdjihane.pdf" target="_blank" rel="noopener noreferrer">voir le certificat</a>
               </div>
               <div className="bg-slate-800/50 rounded-lg p-4">
                 <h4 className="text-white font-medium mb-2">
