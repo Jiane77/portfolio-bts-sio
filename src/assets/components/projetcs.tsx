@@ -12,18 +12,18 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Système de Gestion Scolaire",
-      description: "Application web complète pour la gestion d'établissements scolaires avec authentification, gestion des élèves, professeurs, et planning des cours.",
+      title: "Shpe",
+      description: "Mon projet personnel s’appelle “Shpe”. C’est un site e-commerce où les utilisateurs peuvent",
       image: "https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg",
-      technologies: ["PHP", "Symfony", "MySQL", "Twig", "Bootstrap"],
+      technologies: ["HTML", "React", "TypeScript", "Vite","Tailwind CSS","bootstrap"],
       features: [
-        "Authentification multi-rôles",
-        "Gestion des utilisateurs",
-        "Planning interactif",
-        "Génération de rapports PDF"
+       "Parcourir et acheter des produits",
+       "Ajouter des produits à un panier",
+       "Supprimer des produits du panier",
+       "Voir le total des commandes sélectionnées",
       ],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/Jiane77/Shop",
+      demo: "https://shope-e.netlify.app/",
       category: "Full Stack"
     },
     {
@@ -56,54 +56,10 @@ const Projects = () => {
       demo: "#",
       category: "Frontend"
     },
-    {
-      title: "Application Mobile de Suivi",
-      description: "Application mobile pour le suivi d'activités personnelles avec synchronisation cloud et notifications push.",
-      image: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg",
-      technologies: ["React Native", "Firebase", "Redux", "Expo"],
-      features: [
-        "Synchronisation cloud",
-        "Notifications push",
-        "Mode hors ligne",
-        "Géolocalisation"
-      ],
-      github: "#",
-      demo: "#",
-      category: "Mobile"
-    },
-    {
-      title: "Plateforme de Blog",
-      description: "CMS personnalisé avec éditeur WYSIWYG, système de commentaires, et optimisation SEO pour la création de contenu.",
-      image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg",
-      technologies: ["PHP", "Laravel", "Vue.js", "MySQL", "Redis"],
-      features: [
-        "Éditeur WYSIWYG",
-        "Système de commentaires",
-        "Optimisation SEO",
-        "Cache intelligent"
-      ],
-      github: "#",
-      demo: "#",
-      category: "Full Stack"
-    },
-    {
-      title: "Outil de Monitoring",
-      description: "Système de surveillance d'infrastructure avec alertes en temps réel et tableaux de bord pour DevOps.",
-      image: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg",
-      technologies: ["Python", "Django", "PostgreSQL", "Docker", "Grafana"],
-      features: [
-        "Monitoring temps réel",
-        "Alertes automatiques",
-        "Métriques personnalisées",
-        "Intégration Slack"
-      ],
-      github: "#",
-      demo: "#",
-      category: "DevOps"
-    }
+    
   ]
 
-  const categories = ["Tous", "Full Stack", "Frontend", "Backend", "Mobile", "DevOps"]
+  const categories = ["Tous", "Full Stack", "Frontend", "Backend"]
   const [selectedCategory, setSelectedCategory] = React.useState("Tous")
 
   const filteredProjects = selectedCategory === "Tous" 
