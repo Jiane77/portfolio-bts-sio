@@ -12,7 +12,7 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Shpe",
+      title: "ShopZone",
       description: "Mon projet personnel s’appelle “Shpe”. C’est un site e-commerce où les utilisateurs peuvent",
       image: "https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg",
       technologies: ["HTML", "React", "TypeScript", "Vite","Tailwind CSS","bootstrap"],
