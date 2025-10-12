@@ -24,36 +24,6 @@ const Projects = () => {
       ],
       github: "https://github.com/Jiane77/Shop",
       demo: "https://shope-e.netlify.app/",
-      category: "Full Stack"
-    },
-    {
-      title: "API REST E-commerce",
-      description: "API REST sécurisée pour une plateforme e-commerce avec gestion des produits, commandes, et système de paiement intégré.",
-      image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg",
-      technologies: ["Node.js", "Express", "MongoDB", "JWT", "Stripe"],
-      features: [
-        "Authentification JWT",
-        "CRUD complet",
-        "Paiement sécurisé",
-        "Documentation Swagger"
-      ],
-      github: "#",
-      demo: "#",
-      category: "Backend"
-    },
-    {
-      title: "Dashboard Analytics",
-      description: "Interface de visualisation de données avec graphiques interactifs et tableaux de bord personnalisables pour le suivi des KPIs.",
-      image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
-      technologies: ["React", "TypeScript", "Chart.js", "Tailwind", "Firebase"],
-      features: [
-        "Graphiques interactifs",
-        "Filtres avancés",
-        "Export de données",
-        "Interface responsive"
-      ],
-      github: "#",
-      demo: "#",
       category: "Frontend"
     },
     
