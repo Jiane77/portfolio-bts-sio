@@ -1,5 +1,3 @@
-
-import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import {Rss, ExternalLink, Calendar, TrendingUp, BookOpen, Globe} from 'lucide-react'
