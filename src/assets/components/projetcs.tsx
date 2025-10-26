@@ -210,7 +210,7 @@ const Projects = () => {
             <div className="text-gray-400 text-sm">Utilisées</div>
           </div>
           <div className="text-center bg-slate-700/30 rounded-xl p-6">
-            <div className="text-3xl font-bold text-blue-400 mb-2">100+</div>
+            <div className="text-3xl font-bold text-blue-400 mb-2">50+</div>
             <div className="text-white font-medium">Commits</div>
             <div className="text-gray-400 text-sm">Sur GitHub</div>
           </div>
