@@ -19,6 +19,7 @@ const Skills = () => {
         { name: "JavaScript", level: 70 },
         { name: "React", level: 70 },
         { name: "Bootstrap", level: 85 },
+        {name :"tailwind",    level:70 },
       ],
     },
     {
@@ -26,8 +27,8 @@ const Skills = () => {
       icon: <Code className="w-6 h-6" />,
       color: "from-green-500 to-emerald-500",
       skills: [
-        { name: "PHP", level: 85 },
-        { name: "Symfony", level: 75 },
+        { name: "PHP", level: 70 },
+        { name: "Symfony", level: 70 },
         { name: "Twig", level: 80 },
         { name: "Node.js", level: 65 },
         { name: "Java", level: 60 },
@@ -48,9 +49,11 @@ const Skills = () => {
       color: "from-orange-500 to-red-500",
       skills: [
         { name: "Git", level: 85 },
+        {name :"GitHub",level:80},
         { name: "Agile/Scrum", level: 80 },
         { name: "UML", level: 75 },
         { name: "VS Code", level: 90 },
+        {name:"Wamp",level:85},
       ],
     },
   ];
@@ -162,7 +165,7 @@ const Skills = () => {
         >
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-2xl p-8 border border-purple-500/20">
             <h3 className="text-2xl font-semibold text-white mb-4">
-              Certifications en cours
+              Mes certifications
             </h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-slate-800/50 rounded-lg p-4">
@@ -171,17 +174,90 @@ const Skills = () => {
                 </h4>
                 <p className="text-gray-300 text-sm">
                   Protection des données personnelles
-                </p>
-                <a href="certificatdjihane.pdf" target="_blank" rel="noopener noreferrer">voir le certificat</a>
+                </p><br></br>
+                <ul className="list-disc list-inside space-y-1 text-gray-300 text-sm">
+                  <li className="flex justify-between items-center">Panorama de la SSI</li>
+                  <li className="flex justify-between items-center">Sécurité de l’authentification</li>
+                  <li className="flex justify-between items-center">Sécurité sur internet</li>
+                  <li className="flex justify-between items-center">Sécurité du poste de travail et nomadisme</li>
+                </ul>
+                <a className="text-purple-400 text-sm hover:underline ml-2"
+                   href="certificatdjihane.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                ><br></br>
+                voir le certificat
+                </a>
               </div>
               <div className="bg-slate-800/50 rounded-lg p-4">
-                <h4 className="text-white font-medium mb-2">
-                  Symfony Certification
-                </h4>
-                <p className="text-gray-300 text-sm">
-                  Développement web avancé
-                </p>
-              </div>
+            <h4 className="text-white font-medium mb-2">
+              Certifications CNIL – RGPD
+            </h4>
+            <p className="text-left text-gray-300 text-sm mb-2">
+              6 Modules validés :
+            </p>
+            <ul className="list-disc list-inside space-y-1 text-gray-300 text-sm">
+              <li className="flex justify-between items-center">
+                <span>Module 1 : Le RGPD et ses notions clés</span>
+                <a
+                  href="https://atelier-rgpd.cnil.fr/mod/customcert/view.php?id=19&downloadown=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-400 text-sm hover:underline ml-2"
+                >
+                  Voir le certificat
+                </a>
+              </li>
+              <li className="flex justify-between items-center">
+                <span>Module 2 :Les principes de la protection des données</span>
+                <a
+                  href="https://atelier-rgpd.cnil.fr/mod/customcert/view.php?id=33&downloadown=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-400 text-sm hover:underline ml-2"
+                >
+                  Voir le certificat
+                </a>
+              </li>
+               <li className="flex justify-between items-center">
+                <span>Module 3 :Les responsabilités des acteurs</span>
+                <a
+                  href="https://atelier-rgpd.cnil.fr/mod/customcert/view.php?id=46&downloadown=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-400 text-sm hover:underline ml-2"
+                >
+                  Voir le certificat
+                </a>
+              </li>
+              <li className="flex justify-between items-center">
+                <span>Module 4 : Le DPO et les outils de la conformité</span>
+                <a
+                  href="https://atelier-rgpd.cnil.fr/mod/customcert/view.php?id=54"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-400 text-sm hover:underline ml-2"
+                >
+                  Voir le certificat
+                </a>
+              </li>
+              <li className="flex justify-between items-center">
+                <span>Module 5 : Les collectivités territoriales</span>
+                <a
+                  href="https://atelier-rgpd.cnil.fr/mod/customcert/view.php?id=64&downloadown=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-400 text-sm hover:underline ml-2"
+                >
+                  Voir le certificat
+                </a>
+              </li>
+              <li className="flex justify-between items-center">
+                <span>Module 6 : Travail et données personnelles</span>
+                <a href="https://atelier-rgpd.cnil.fr/mod/customcert/view.php?id=182&downloadown=1" target="_blank" rel="noopener noreferrer" className="text-purple-400 text-sm hover:underline ml-2">Voir le certificat</a>
+              </li>
+            </ul>
+            </div>
             </div>
           </div>
         </motion.div>
