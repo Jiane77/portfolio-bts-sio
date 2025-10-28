@@ -52,25 +52,29 @@ const TechWatch = () => {
       name: "Stack Overflow",
       description: "Communauté de développeurs",
       icon: <Globe className="w-6 h-6" />,
-      color: "from-orange-500 to-red-500"
+      color: "from-orange-500 to-red-500",
+      link:"https://stackoverflow.com/questions"
     },
     {
       name: "GitHub",
       description: "Projets open source",
       icon: <BookOpen className="w-6 h-6" />,
-      color: "from-gray-600 to-gray-800"
+      color: "from-gray-600 to-gray-800",
+      link:"https://github.com/"
     },
     {
       name: "MDN Web Docs",
       description: "Documentation web",
       icon: <Rss className="w-6 h-6" />,
-      color: "from-blue-500 to-indigo-500"
+      color: "from-blue-500 to-indigo-500",
+      link:"https://developer.mozilla.org/fr/"
     },
     {
       name: "Dev.to",
       description: "Articles techniques",
       icon: <TrendingUp className="w-6 h-6" />,
-      color: "from-green-500 to-teal-500"
+      color: "from-green-500 to-teal-500",
+      link:"https://dev.to/"
     }
   ]
 
@@ -174,8 +178,9 @@ const TechWatch = () => {
             </h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {sources.map((source) => (
-                <motion.div
+                <motion.a
                   key={source.name}
+                  href={source.link }
                   variants={itemVariants}
                   className="bg-slate-700/50 backdrop-blur-sm rounded-xl p-6 border border-slate-600/50 hover:border-slate-500/50 transition-all duration-300 text-center"
                 >
@@ -184,7 +189,7 @@ const TechWatch = () => {
                   </div>
                   <h4 className="text-white font-semibold mb-2">{source.name}</h4>
                   <p className="text-gray-300 text-sm">{source.description}</p>
-                </motion.div>
+                </motion.a>
               ))}
             </div>
           </motion.div>
