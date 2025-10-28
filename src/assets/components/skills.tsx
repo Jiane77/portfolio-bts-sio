@@ -200,7 +200,7 @@ const Skills = () => {
               <li className="flex justify-between items-center">
                 <span>Module 1 : Le RGPD et ses notions clés</span>
                 <a
-                  href="https://atelier-rgpd.cnil.fr/mod/customcert/view.php?id=19&downloadown=1"
+                  href="/Certificatmodule1.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-purple-400 text-sm hover:underline ml-2"
@@ -211,7 +211,7 @@ const Skills = () => {
               <li className="flex justify-between items-center">
                 <span>Module 2 :Les principes de la protection des données</span>
                 <a
-                  href="https://atelier-rgpd.cnil.fr/mod/customcert/view.php?id=33&downloadown=1"
+                  href="/certificatmodule2.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-purple-400 text-sm hover:underline ml-2"
@@ -222,7 +222,7 @@ const Skills = () => {
                <li className="flex justify-between items-center">
                 <span>Module 3 :Les responsabilités des acteurs</span>
                 <a
-                  href="https://atelier-rgpd.cnil.fr/mod/customcert/view.php?id=46&downloadown=1"
+                  href="/certificatmodule3.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-purple-400 text-sm hover:underline ml-2"
@@ -233,7 +233,7 @@ const Skills = () => {
               <li className="flex justify-between items-center">
                 <span>Module 4 : Le DPO et les outils de la conformité</span>
                 <a
-                  href="https://atelier-rgpd.cnil.fr/mod/customcert/view.php?id=54"
+                  href="/certificatmodule4.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-purple-400 text-sm hover:underline ml-2"
@@ -244,7 +244,7 @@ const Skills = () => {
               <li className="flex justify-between items-center">
                 <span>Module 5 : Les collectivités territoriales</span>
                 <a
-                  href="https://atelier-rgpd.cnil.fr/mod/customcert/view.php?id=64&downloadown=1"
+                  href="/certificatmodule5.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-purple-400 text-sm hover:underline ml-2"
@@ -254,7 +254,7 @@ const Skills = () => {
               </li>
               <li className="flex justify-between items-center">
                 <span>Module 6 : Travail et données personnelles</span>
-                <a href="https://atelier-rgpd.cnil.fr/mod/customcert/view.php?id=182&downloadown=1" target="_blank" rel="noopener noreferrer" className="text-purple-400 text-sm hover:underline ml-2">Voir le certificat</a>
+                <a href="/certificatmodule6.pdf" className="text-purple-400 text-sm hover:underline ml-2">Voir le certificat</a>
               </li>
             </ul>
             </div>
