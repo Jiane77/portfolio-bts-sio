@@ -12,6 +12,17 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "Auto-ecole",
+      description: "Mon projet personnel s’appelle “Auto-Ecole”.",
+      image: "https://dwpt1kkww6vki.cloudfront.net/img/transport/autoecole.jpg",
+      technologies: ["PHP", "React", "TypeScript", "Vite","Tailwind CSS","bootstrap","tailwind","HTML","CSS"],
+      features: [
+      ],
+      github: "https://github.com/Jiane77/auto-ecole",
+      demo: "http://localhost:8081/index.php",
+      category: "Full Stack"
+    },    
+    {
       title: "ShopZone",
       description: "Mon projet personnel s’appelle “ShopZone”. C’est un site e-commerce où les utilisateurs peuvent",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Q0rKuu52qIuwrG0EVmfK-C_Eok6iXn_frw&s",
@@ -23,10 +34,9 @@ const Projects = () => {
        "Voir le total des commandes sélectionnées",
       ],
       github: "https://github.com/Jiane77/Shop",
-      demo: "https://shope-e.netlify.app/",
+      demo: "jiane77-shop-ecommerce-exemple.vercel.app",
       category: "Frontend"
     },
-    
   ]
 
   const categories = ["Tous", "Full Stack", "Frontend", "Backend"]
