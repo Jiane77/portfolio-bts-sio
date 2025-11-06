@@ -179,7 +179,7 @@ const TechWatch = () => {
                 {/* Deuxième article exemple */}
                 <div className="bg-slate-700/50 backdrop-blur-sm rounded-xl p-4 border border-slate-600/50 hover:border-slate-500/50 transition-all duration-300 w-full md:w-1/2">
                   <img
-                    src="/images/cyber-article.jpg"
+                    src="public/ia1.jpg"
                     alt="Article secondaire"
                     className="rounded-lg mb-3 w-full object-cover max-h-40"
                   />
