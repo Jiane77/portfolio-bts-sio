@@ -286,9 +286,7 @@ const Internship = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-slate-800 hover:bg-slate-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
-                  >
-                    🔗 Voir sur GitHub
-                  </a>
+                  >🔗 Voir sur GitHub</a>
                 </div>
               </div>
             </motion.div>
@@ -332,6 +330,23 @@ const Internship = () => {
               </div>
             </motion.div>
           </div>
+          <motion.div variants={itemVariants} className="mt-16 grid md:grid-cols-3 gap-8">
+            <div className="text-center bg-slate-700/30 rounded-xl p-6">
+              <div className="text-3xl font-bold text-blue-400 mb-2">8</div>
+              <div className="text-white font-medium">Semaines</div>
+              <div className="text-gray-400 text-sm">D'expérience</div>
+            </div>
+            <div className="text-center bg-slate-700/30 rounded-xl p-6">
+              <div className="text-3xl font-bold text-green-400 mb-2">8</div>
+              <div className="text-white font-medium">tickets</div>
+              <div className="text-gray-400 text-sm">réalisés</div>
+            </div>
+            <div className="text-center bg-slate-700/30 rounded-xl p-6">
+              <div className="text-2xl font-bold text-purple-600 mb-2">Une équipe</div>
+              <div className="text-white font-medium">de créateurs</div>
+              <div className="text-gray-400 text-sm">Inspirante et motivante</div>
+            </div>
+          </motion.div>
         </motion.div>
       </div>
     </section>
