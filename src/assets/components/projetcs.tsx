@@ -1,8 +1,7 @@
-
 import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import {ExternalLink, Github, Code, Database, Globe} from 'lucide-react'
+import { ExternalLink, Github, Code, Database, Globe } from 'lucide-react'
 
 const Projects = () => {
   const [ref, inView] = useInView({
@@ -15,44 +14,134 @@ const Projects = () => {
       title: "Auto-ecole",
       description: "Mon projet personnel s’appelle “Auto-Ecole”.",
       image: "https://dwpt1kkww6vki.cloudfront.net/img/transport/autoecole.jpg",
-      technologies: ["PHP", "React", "TypeScript", "Vite","Tailwind CSS","bootstrap","tailwind","HTML","CSS"],
-      features: [
-      ],
+      technologies: ["PHP", "React", "TypeScript", "Vite", "Tailwind CSS", "bootstrap", "tailwind", "HTML", "CSS"],
+      features: [],
       github: "https://github.com/Jiane77/auto-ecole",
-      demo: "http://localhost:8081/index.php",
+      demo: "AutoEcole.pdf",
       category: "Full Stack"
-    },    
+    },
     {
       title: "ShopZone",
       description: "Mon projet personnel s’appelle “ShopZone”. C’est un site e-commerce où les utilisateurs peuvent",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Q0rKuu52qIuwrG0EVmfK-C_Eok6iXn_frw&s",
-      technologies: ["HTML", "React", "TypeScript", "Vite","Tailwind CSS","bootstrap"],
+      technologies: ["HTML", "React", "TypeScript", "Vite", "Tailwind CSS", "bootstrap"],
       features: [
-       "Parcourir et acheter des produits",
-       "Ajouter des produits à un panier",
-       "Supprimer des produits du panier",
-       "Voir le total des commandes sélectionnées",
+        "Parcourir et acheter des produits",
+        "Ajouter des produits à un panier",
+        "Supprimer des produits du panier",
+        "Voir le total des commandes sélectionnées",
       ],
       github: "https://github.com/Jiane77/Shop",
-      demo: "jiane77-shop-ecommerce-exemple.vercel.app",
+      demo: "https://jiane77-shop-ecommerce-exemple.vercel.app/",
       category: "Frontend"
     },
+    {
+      title: "GLPI - Documentation",
+      description: "J’ai réalisé une documentation complète sur GLPI, un outil de gestion de parc informatique et de support technique. Ce document explique l’installation, la configuration et les principales fonctionnalités du logiciel.",
+      image: "public/GLPI.png",
+      technologies: ["GLPI"],
+      features: [
+        "Présentation et objectifs de GLPI",
+        "Procédure d’installation et de configuration",
+        "Gestion des tickets et des utilisateurs",
+        "Fonctionnalités principales expliquées en détail",
+      ],
+      github: "https://github.com/Jiane77/Documentation-GLPI",
+      demo: "public/documentationGLPI.pdf",
+      category: "Documentation"
+    },
+    {
+      title: "Game en C",
+      description: "Un petit jeu où le joueur doit résoudre des opérations mathématiques le plus rapidement possible.",
+      image: "https://img.freepik.com/vecteurs-libre/tableau-maths_23-2148178220.jpg?semt=ais_incoming&w=740&q=80",
+      technologies: ["C"],
+      features: [
+        "Génération aléatoire d'opérations mathématiques",
+        "Minuteur pour mesurer la vitesse",
+        "Afficher le score final",
+        "Interface simple et claire",
+      ],
+      github: "https://github.com/Jiane77/jeux",
+      demo: "public/CGame.png",
+      category: "Backend"
+    },
+    {
+      title: "Snake",
+      description: "Jeu Snake réalisé en langage C.",
+      image: "image.png",
+      technologies: ["C"],
+      features: [
+        "Déplacement du serpent",
+        "Gestion des collisions",
+        "Score en temps réel",
+      ],
+      github: "https://github.com/Jiane77/Snake",
+      category: "Backend"
+    },
+    {
+      title: "JuiceLab",
+      description: "Boutique e-commerce réalisée avec Shopify pour la vente de jus frais artisanaux.",
+      image: "shopify.jpg",
+      technologies: ["Shopify", "Liquid", "HTML", "CSS", "JavaScript"],
+      features: [
+        "Catalogue de produits",
+        "Ajout et suppression du panier",
+        "Tunnel de commande sécurisé",
+        "Paiement en ligne (Visa, PayPal, Apple Pay)",
+        "Gestion automatique des commandes et factures"
+      ],
+      github: "https://github.com/ton-compte/juicelab",
+      category: "Full Stack"
+    },  
+    {
+      title: "worldpress",
+      description: "Mon projet personnel s’appelle “ShopZone”. C’est un site e-commerce où les utilisateurs peuvent",
+      image: "WordPress.png",
+      technologies: ["HTML", "React", "TypeScript", "Vite", "Tailwind CSS", "bootstrap"],
+      features: [
+        "Parcourir et acheter des produits",
+        "Ajouter des produits à un panier",
+        "Supprimer des produits du panier",
+        "Voir le total des commandes sélectionnées",
+      ],
+      github: "https://github.com/Jiane77/Shop",
+      demo: "https://jiane77-shop-ecommerce-exemple.vercel.app/",
+      category: "Frontend"
+    },  
+    {
+      title: "Tableau de synthèse",
+      description: "Tableau de synthèse des compétences professionnelles au format Excel.",
+      image: "https://servimg.eyrolles.com/static/media/1659/9782409001659_internet_h1400.jpg",
+      technologies: [], 
+      features: [],               
+      github: "",             
+      demo: "Tableau de synthèse.xlsx",
+      category: "Tableau de synthèse"
+    },
+    {
+      title: "Prtfolio",
+      description: "le portfolio",
+      image: "https://servimg.eyrolles.com/static/media/1659/9782409001659_internet_h1400.jpg",
+      technologies: [], 
+      features: [],               
+      github: "https://github.com/Jiane77/portfolio-bts-sio",             
+      demo: "Tableau de synthèse.xlsx",
+      category: "Frontend"
+    }
   ]
 
-  const categories = ["Tous", "Full Stack", "Frontend", "Backend"]
+  const categories = ["Tous", "Full Stack", "Frontend", "Backend", "Documentation", "Tableau de synthèse"]
   const [selectedCategory, setSelectedCategory] = React.useState("Tous")
 
-  const filteredProjects = selectedCategory === "Tous" 
-    ? projects 
+  const filteredProjects = selectedCategory === "Tous"
+    ? projects
     : projects.filter(project => project.category === selectedCategory)
 
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.2
-      }
+      transition: { staggerChildren: 0.2 }
     }
   }
 
@@ -77,6 +166,8 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-slate-800/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {/* Titre */}
         <motion.div
           ref={ref}
           variants={containerVariants}
@@ -84,22 +175,16 @@ const Projects = () => {
           animate={inView ? "visible" : "hidden"}
           className="text-center mb-16"
         >
-          <motion.h2 
-            variants={itemVariants}
-            className="text-4xl md:text-5xl font-bold text-white mb-6"
-          >
+          <motion.h2 variants={itemVariants} className="text-4xl md:text-5xl font-bold text-white mb-6">
             Mes Projets
           </motion.h2>
-          <motion.p 
-            variants={itemVariants}
-            className="text-xl text-gray-300 max-w-3xl mx-auto"
-          >
+          <motion.p variants={itemVariants} className="text-xl text-gray-300 max-w-3xl mx-auto">
             Découvrez les projets que j'ai réalisés durant ma formation et mes projets personnels
           </motion.p>
         </motion.div>
 
-        {/* Category Filter */}
-        <motion.div 
+        {/* Filtres */}
+        <motion.div
           variants={itemVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
@@ -120,8 +205,8 @@ const Projects = () => {
           ))}
         </motion.div>
 
-        {/* Projects Grid */}
-        <motion.div 
+        {/* Grille projets */}
+        <motion.div
           variants={containerVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
@@ -134,8 +219,8 @@ const Projects = () => {
               className="bg-slate-700/50 backdrop-blur-sm rounded-2xl overflow-hidden border border-slate-600/50 hover:border-slate-500/50 transition-all duration-300 group"
             >
               <div className="relative overflow-hidden">
-                <img 
-                  src={project.image} 
+                <img
+                  src={project.image}
                   alt={project.title}
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
@@ -152,84 +237,74 @@ const Projects = () => {
                 <h3 className="text-xl font-semibold text-white mb-3">{project.title}</h3>
                 <p className="text-gray-300 text-sm mb-4 leading-relaxed">{project.description}</p>
 
-                <div className="mb-4">
-                  <h4 className="text-white font-medium text-sm mb-2">Fonctionnalités :</h4>
-                  <ul className="space-y-1">
-                    {project.features.map((feature) => (
-                      <li key={feature} className="text-gray-300 text-xs flex items-center">
-                        <div className="w-1 h-1 bg-purple-400 rounded-full mr-2"></div>
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div className="mb-6">
-                  <div className="flex flex-wrap gap-2">
-                    {project.technologies.map((tech) => (
-                      <span 
-                        key={tech}
-                        className="bg-slate-800/50 text-gray-300 px-2 py-1 rounded text-xs border border-slate-600/30"
-                      >
-                        {tech}
-                      </span>
-                    ))}
+                {project.category !== "Tableau de synthèse" && (
+                  <div className="mb-4">
+                    <h4 className="text-white font-medium text-sm mb-2">Fonctionnalités :</h4>
+                    <ul className="space-y-1">
+                      {project.features.map((feature) => (
+                        <li key={feature} className="text-gray-300 text-xs flex items-center">
+                          <div className="w-1 h-1 bg-purple-400 rounded-full mr-2"></div>
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
+                )}
+
+                {project.category !== "Tableau de synthèse" && (
+                  <div className="mb-6">
+                    <div className="flex flex-wrap gap-2">
+                      {project.technologies.map((tech) => (
+                        <span
+                          key={tech}
+                          className="bg-slate-800/50 text-gray-300 px-2 py-1 rounded text-xs border border-slate-600/30"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Boutons */}
+                <div className="flex space-x-3">
+                  {project.category !== "Tableau de synthèse" && project.github && (
+                    <motion.a
+                      href={project.github}
+                      className="flex items-center space-x-2 bg-slate-800/50 text-gray-300 px-4 py-2 rounded-lg text-sm hover:bg-slate-700/50 hover:text-white transition-all duration-200"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      <Github className="w-4 h-4" />
+                      <span>Code</span>
+                    </motion.a>
+                  )}
+
+                  {project.demo && (
+                    <motion.a
+                      href={project.demo}
+                      className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-sm transition-all duration-200 ${
+                        project.category === "Tableau de synthèse"
+                          ? "bg-green-500/20 text-green-300 hover:bg-green-500/30 hover:text-green-200"
+                          : "bg-purple-500/20 text-purple-300 hover:bg-purple-500/30 hover:text-purple-200"
+                      }`}
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                      download={project.category === "Tableau de synthèse"}
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                      <span>
+                        {project.category === "Tableau de synthèse" ? "Télécharger Excel" : "Démo"}
+                      </span>
+                    </motion.a>
+                  )}
                 </div>
 
-                <div className="flex space-x-3">
-                  <motion.a
-                    href={project.github}
-                    className="flex items-center space-x-2 bg-slate-800/50 text-gray-300 px-4 py-2 rounded-lg text-sm hover:bg-slate-700/50 hover:text-white transition-all duration-200"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <Github className="w-4 h-4" />
-                    <span>Code</span>
-                  </motion.a>
-                  <motion.a
-                    href={project.demo}
-                    className="flex items-center space-x-2 bg-purple-500/20 text-purple-300 px-4 py-2 rounded-lg text-sm hover:bg-purple-500/30 hover:text-purple-200 transition-all duration-200"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <ExternalLink className="w-4 h-4" />
-                    <span>Démo</span>
-                  </motion.a>
-                </div>
               </div>
             </motion.div>
           ))}
         </motion.div>
 
-        {/* Project Stats */}
-        <motion.div
-          variants={itemVariants}
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
-          className="mt-16 grid md:grid-cols-4 gap-6"
-        >
-          <div className="text-center bg-slate-700/30 rounded-xl p-6">
-            <div className="text-3xl font-bold text-purple-400 mb-2">{projects.length}</div>
-            <div className="text-white font-medium">Projets Réalisés</div>
-            <div className="text-gray-400 text-sm">En formation</div>
-          </div>
-          <div className="text-center bg-slate-700/30 rounded-xl p-6">
-            <div className="text-3xl font-bold text-green-400 mb-2">15+</div>
-            <div className="text-white font-medium">Technologies</div>
-            <div className="text-gray-400 text-sm">Utilisées</div>
-          </div>
-          <div className="text-center bg-slate-700/30 rounded-xl p-6">
-            <div className="text-3xl font-bold text-blue-400 mb-2">100+</div>
-            <div className="text-white font-medium">Commits</div>
-            <div className="text-gray-400 text-sm">Sur GitHub</div>
-          </div>
-          <div className="text-center bg-slate-700/30 rounded-xl p-6">
-            <div className="text-3xl font-bold text-orange-400 mb-2">3</div>
-            <div className="text-white font-medium">Catégories</div>
-            <div className="text-gray-400 text-sm">De projets</div>
-          </div>
-        </motion.div>
       </div>
     </section>
   )
