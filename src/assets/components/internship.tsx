@@ -186,7 +186,7 @@ const Internship = () => {
           </div>
           <motion.div variants={itemVariants} className="mt-16 grid md:grid-cols-3 gap-8">
             <div className="text-center bg-slate-700/30 rounded-xl p-6">
-              <div className="text-3xl font-bold text-blue-400 mb-2">7</div>
+              <div className="text-3xl font-bold text-blue-400 mb-2">5</div>
               <div className="text-white font-medium">Semaines</div>
               <div className="text-gray-400 text-sm">D'expérience</div>
             </div>
@@ -217,7 +217,7 @@ const Internship = () => {
                     <Calendar className="w-5 h-5 text-orange-400" />
                     <div>
                       <p className="text-white font-medium">Durée</p>
-                      <p className="text-gray-300 text-sm">8 semaines</p>
+                      <p className="text-gray-300 text-sm">7 semaines</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
@@ -266,23 +266,23 @@ const Internship = () => {
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a
-                    href="/"
+                    href="RAPPORT DE STAGE.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
+                    className=" bg-purple-400 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
                   >
-                    📄 Consulter le rapport
+                  Consulter le rapport
                   </a>
 
                   <a
-                    href=""
+                    href="RAPPORT DE STAGE.pdf"
                     download
-                    className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
+                    className=" bg-purple-400 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
                   >
-                    ⬇️ Télécharger le PDF
+                  Télécharger le PDF
                   </a>
                   <a
-                    href="le git "
+                    href="https://github.com/Jiane77/rapport-stage-2"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-slate-800 hover:bg-slate-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
@@ -311,7 +311,7 @@ const Internship = () => {
               <div className="bg-gradient-to-br from-orange-500/10 to-yellow-500/10 rounded-2xl p-8 border border-orange-500/20">
                 <h4 className="text-xl font-semibold text-white mb-6">Technologies Utilisées</h4>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-                                    {['HTML5', 'CSS', 'PHP', 'JavaScript', 'Bootstrap', 'Git', 'Symfony', 'Twig', 'YAML'].map((tech) => (
+                                    {['HTML5', 'CSS', 'PHP', 'JavaScript', 'Bootstrap', 'Git', 'Symfony'].map((tech) => (
                     <div key={tech} className="bg-slate-800/50 text-center py-2 px-3 rounded-lg">
                       <span className="text-gray-300 text-sm font-medium">{tech}</span>
                     </div>
@@ -332,7 +332,7 @@ const Internship = () => {
           </div>
           <motion.div variants={itemVariants} className="mt-16 grid md:grid-cols-3 gap-8">
             <div className="text-center bg-slate-700/30 rounded-xl p-6">
-              <div className="text-3xl font-bold text-blue-400 mb-2">8</div>
+              <div className="text-3xl font-bold text-blue-400 mb-2">7</div>
               <div className="text-white font-medium">Semaines</div>
               <div className="text-gray-400 text-sm">D'expérience</div>
             </div>
