@@ -139,7 +139,7 @@ const About = () => {
               <div className="text-gray-400 text-sm">En informatique</div>
             </div>
             <div className="text-center bg-slate-700/30 rounded-xl p-6">
-              <div className="text-3xl font-bold text-green-400 mb-2">7</div>
+              <div className="text-3xl font-bold text-green-400 mb-2">12</div>
               <div className="text-white font-medium">Semaines de stage</div>
               <div className="text-gray-400 text-sm">En entreprise</div>
             </div>
