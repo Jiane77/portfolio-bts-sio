@@ -16,30 +16,31 @@ const TechWatch = () => {
       summary: "Les IA génératives comme ChatGPT ou Copilot aident les salariés à rédiger, coder, concevoir ou analyser plus vite. Elles améliorent la productivité mais posent aussi des questions sur l’automatisation et la fiabilité.",
       analysis: "Mon expérience avec un ATS m’a montré comment l’IA facilite le travail des recruteurs. Même performante, elle doit être supervisée par un humain pour éviter les erreurs ou biais. Dans le développement web, je vois l’IA comme un outil complémentaire.",
       icon: <Globe className="w-8 h-8 text-purple-400 mr-4" />,
+      powerpointLink: "public/IA Travail.pptx",
       articles: [
         {
-          title: "L’IA générative bouleverse le monde du travail",
-          source: "Le Monde Informatique",
-          link: "https://www.lemondeinformatique.fr/actualites/lire-lintelligence-artificielle-generative-bouleverse-le-monde-du-travail-93013.html",
+          title: "L’intelligence artificielle bouscule le monde du travail : 68 % des actifs utilisent déjà l’IA",
+          source: "La Dépêche, 09/04/2025",
+          link: "https://www.ladepeche.fr/2025/04/09/lintelligence-artificielle-bouscule-le-monde-du-travail-entre-acceleration-et-inquietudes-12626431.php?utm_source=chatgpt.com",
           image: "/public/ia1.jpg"
         },
         {
-          title: "Comment l’IA transforme les métiers",
-          source: "ZDNet France",
-          link: "https://www.zdnet.fr/actualites/comment-l-ia-transforme-les-metiers-39959423.htm",
-          image: "/public/ia2.jpg"
+          title: "Publication du rapport “IA et Futur du Travail”",
+          source: "Human Technology Foundation, 27/01/2025",
+          link: "https://www.human-technology-foundation.org/fr-news/publication-du-rapport-ia-et-futur-du-travail---evenement-27-janvier-2025?utm_source=chatgpt.com",
+          image: "IA et Futur du Travail.jpg"
         },
         {
-          title: "IA et productivité : opportunités et risques",
-          source: "Usine Digitale",
-          link: "https://www.usine-digitale.fr/article/ia-et-productivite-opportunites-et-risques.N2144536",
+          title: "Nouvelles compétences et intelligence artificielle transforment le monde du travail",
+          source: "FMI, 15/01/2026",
+          link: "https://www.imf.org/fr/blogs/articles/2026/01/14/new-skills-and-ai-are-reshaping-the-future-of-work?utm_source=chatgpt.com",
           image: "/public/ia3.jpg"
         },
         {
-          title: "L’IA au service des entreprises",
-          source: "BFM Business",
-          link: "https://www.bfmtv.com/economie/entreprises/technologies/l-ia-au-service-des-entreprises_AV-2024.html",
-          image: "/public/ia4.jpg"
+          title: "L’IA pourrait affecter 40 % des emplois dans le monde selon l’ONU",
+          source: "Euronews, 08/04/2025",
+          link: "https://fr.euronews.com/next/2025/04/08/lia-pourrait-selon-lonu-affecter-40-des-emplois-dans-le-monde-au-cours-de-la-prochaine-dec?utm_source=chatgpt.com",
+          image: "/public/ia4.webp"
         }
       ],
       gradient: "from-purple-500/10 to-pink-500/10",
@@ -52,30 +53,31 @@ const TechWatch = () => {
       summary: "De nombreux fabricants négligent la sécurité des appareils connectés. Les experts recommandent d’intégrer la cybersécurité dès la conception (security by design).",
       analysis: "Cette veille m’a montré que la cybersécurité concerne autant les entreprises que les particuliers. Dans mes projets, je devrai appliquer ces bonnes pratiques pour protéger les utilisateurs.",
       icon: <TrendingUp className="w-8 h-8 text-blue-400 mr-4" />,
+      powerpointLink: "public/Cybersecurite_IoT.pptx",
       articles: [
         {
-          title: "Les objets connectés, nouvelle cible des cyberattaques",
-          source: "ZDNet France",
-          link: "https://www.zdnet.fr/actualites/les-objets-connectes-nouvelle-cible-des-cyberattaques-39966213.htm",
-          image: "/public/cyber1.jpg"
+          title: "Forecast: 28 milliards d’appareils IoT protégés d’ici 2028",
+          source: "Advanced Television, 17/02/2025",
+          link: "https://www.advanced-television.com/2025/02/17/forecast-28bn-iot-devices-protected-by-cybersecurity-by-2028/?utm_source=chatgpt.com",
+          image: "/public/iot1.png"
         },
         {
-          title: "IoT : les nouveaux défis de la cybersécurité",
-          source: "Le Monde Informatique",
-          link: "https://www.lemondeinformatique.fr/actualites/lire-iot-les-nouveaux-defis-de-la-cybersecurite-91523.html",
-          image: "/public/cyber2.jpg"
+          title: "Nearly half of network connections come from high‑risk IoT and IT devices",
+          source: "TechRadar, 29/10/2025",
+          link: "https://www.techradar.com/pro/security/nearly-half-of-network-connections-come-from-high-risk-iot-and-it-devices-so-make-sure-youre-protected?utm_source=chatgpt.com",
+          image: "/public/iot2.jpg"
         },
         {
-          title: "Sécuriser les objets connectés",
-          source: "ANSSI",
-          link: "https://www.ssi.gouv.fr/entreprise/bonnes-pratiques/securite-des-objets-connectes/",
-          image: "/public/cyber3.jpg"
+          title: "Top cybersecurity risks for 2026 : de la désinformation aux attaques IA",
+          source: "Tom’s Guide, janvier 2026",
+          link: "https://www.tomsguide.com/computing/online-security/from-misinformation-to-ai-powered-cyberattacks-the-top-cybersecurity-risks-for-2026?utm_source=chatgpt.com",
+          image: "/public/iot3.png"
         },
         {
-          title: "Les risques liés à l’IoT",
-          source: "CNIL",
-          link: "https://www.cnil.fr/fr/objets-connectes",
-          image: "/public/cyber4.jpg"
+          title: "Global Cybersecurity Outlook 2026 : tendances et risques",
+          source: "World Economic Forum, 2025–2026",
+          link: "https://www.weforum.org/publications/global-cybersecurity-outlook-2026/in-full/3-the-trends-reshaping-cybersecurity?utm_source=chatgpt.com",
+          image: "/public/iot4.avif"
         }
       ],
       gradient: "from-blue-500/10 to-indigo-500/10",
@@ -148,32 +150,32 @@ const TechWatch = () => {
           animate={inView ? "visible" : "hidden"}
         >
           {/* Titre et intro */}
-<motion.div variants={itemVariants} className="mb-16">
-   <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 text-center">Veille Technologique</h2>
-  <div className="bg-slate-700/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-600/50">
-    <h3 className="text-2xl font-semibold text-white mb-4">
-      Qu’est-ce que la veille technologique ?
-    </h3>
-    <div className="space-y-4 text-gray-300 leading-relaxed">
-      <p>
-        La veille technologique consiste à surveiller en permanence les évolutions techniques,
-        les innovations et les nouvelles pratiques dans le domaine du numérique.
-        Elle permet de rester informé, d’anticiper les changements et d’adapter ses
-        compétences aux besoins du marché.
-      </p>
+          <motion.div variants={itemVariants} className="mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 text-center">Veille Technologique</h2>
+            <div className="bg-slate-700/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-600/50">
+              <h3 className="text-2xl font-semibold text-white mb-4">
+                Qu’est-ce que la veille technologique ?
+              </h3>
+              <div className="space-y-4 text-gray-300 leading-relaxed">
+                <p>
+                  La veille technologique consiste à surveiller en permanence les évolutions techniques,
+                  les innovations et les nouvelles pratiques dans le domaine du numérique.
+                  Elle permet de rester informé, d’anticiper les changements et d’adapter ses
+                  compétences aux besoins du marché.
+                </p>
 
-      <p>
-        <b>Pourquoi ces choix ?</b><br />
-        J’ai choisi de concentrer ma veille sur l’intelligence artificielle et la
-        cybersécurité des objets connectés, car ce sont deux domaines majeurs en pleine
-        expansion. L’IA transforme profondément les méthodes de travail tandis que la
-        cybersécurité est devenue essentielle face à l’augmentation des cybermenaces.
-        Ces thématiques sont directement liées à mon projet professionnel dans le
-        développement web.
-      </p>
-    </div>
-  </div>
-</motion.div>
+                <p>
+                  <b>Pourquoi ces choix ?</b><br />
+                  J’ai choisi de concentrer ma veille sur l’intelligence artificielle et la
+                  cybersécurité des objets connectés, car ce sont deux domaines majeurs en pleine
+                  expansion. L’IA transforme profondément les méthodes de travail tandis que la
+                  cybersécurité est devenue essentielle face à l’augmentation des cybermenaces.
+                  Ces thématiques sont directement liées à mon projet professionnel dans le
+                  développement web.
+                </p>
+              </div>
+            </div>
+          </motion.div>
 
           {/* Veilles */}
           {veilles.map((veille, index) => (
@@ -195,7 +197,7 @@ const TechWatch = () => {
               </div>
 
               {/* Articles */}
-              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-4">
                 {veille.articles.map((article, i) => (
                   <a
                     key={i}
@@ -217,10 +219,21 @@ const TechWatch = () => {
                   </a>
                 ))}
               </div>
+              {veille.powerpointLink && (
+                <div className="text-center mt-4">
+                  <a
+                    href={veille.powerpointLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-purple-500 hover:bg-purple-600 text-white font-semibold py-2 px-6 rounded-lg transition-colors"
+                  >
+                    Voir le PowerPoint
+                  </a>
+                </div>
+              )}
             </motion.div>
           ))}
 
-          {/* Sources de veille */}
           <motion.div variants={itemVariants} className="mb-16">
             <h3 className="text-2xl font-semibold text-white mb-8 flex items-center">
               <Book className="w-6 h-6 text-blue-400 mr-3" />
