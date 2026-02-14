@@ -131,7 +131,7 @@ const About = () => {
 
           <motion.div 
             variants={itemVariants}
-            className="mt-16 grid md:grid-cols-3 gap-8"
+            className="mt-16 grid md:grid-cols-4 gap-8"
           >
             <div className="text-center bg-slate-700/30 rounded-xl p-6">
               <div className="text-3xl font-bold text-purple-400 mb-2">2</div>
@@ -148,11 +148,15 @@ const About = () => {
               <div className="text-white font-medium">Technologies</div>
               <div className="text-gray-400 text-sm">Maîtrisées</div>
             </div>
+             <div className="text-center bg-slate-700/30 rounded-xl p-6">
+              <div className="text-3xl font-bold mb-2">200+</div>
+              <div className="text-white font-medium">Commit</div>
+              <div className="text-gray-400 text-sm">réalisés</div>
+            </div>
           </motion.div>
         </motion.div>
       </div>
     </section>
   )
 }
-
 export default About
