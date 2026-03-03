@@ -7,7 +7,7 @@ import Skills from './assets/components/skills'
 import Projects from './assets/components/projetcs'
 import Internship from './assets/components/internship'
 import TechWatch from './assets/components/techWatch'
-import Contact from './assets/components/contact'  
+import Contact from './assets/components/contact' 
 
 
 function App() {
