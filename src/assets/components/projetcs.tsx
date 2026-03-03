@@ -76,6 +76,7 @@ const Projects = () => {
         "Score en temps réel",
       ],
       github: "https://github.com/Jiane77/Snake",
+      demo:"Snake-en-C-Console-Windows.pptx",
       category: "Backend"
     },
     {
@@ -91,6 +92,7 @@ const Projects = () => {
         "Gestion automatique des commandes et factures"
       ],
       github: "https://github.com/ton-compte/juicelab",
+      demo:"",
       category: "Full Stack"
     },  
     {
@@ -105,7 +107,7 @@ const Projects = () => {
         "Voir le total des commandes sélectionnées",
       ],
       github: "https://github.com/Jiane77/Shop",
-      demo: "https://jiane77-shop-ecommerce-exemple.vercel.app/",
+      demo: "PresentationWP.pdf",
       category: "Frontend"
     },  
     {
