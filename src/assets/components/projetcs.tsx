@@ -47,7 +47,7 @@ const Projects = () => {
         "Fonctionnalités principales expliquées en détail",
       ],
       github: "https://github.com/Jiane77/Documentation-GLPI",
-      demo: "public/documentationGLPI.pdf",
+      demo: "documentationGLPI.pdf",
       category: "Documentation"
     },
     {
@@ -62,7 +62,7 @@ const Projects = () => {
         "Interface simple et claire",
       ],
       github: "https://github.com/Jiane77/jeux",
-      demo: "public/CGame.png",
+      demo: "CGame.png",
       category: "Backend"
     },
     {
@@ -129,7 +129,7 @@ const Projects = () => {
     "Design responsive et moderne"
   ],
   github: "https://github.com/Jiane77/portfolio-bts-sio",
-  demo: "https://portfolio-bts-pecciixwe-jiane77s-projects.vercel.app/",
+  demo: "https://portfolio-bts-sio-phi.vercel.app/",
   category: "Frontend"
 }
   ]

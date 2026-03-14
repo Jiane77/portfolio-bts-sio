@@ -16,7 +16,7 @@ const TechWatch = () => {
       summary: "Les IA génératives comme ChatGPT ou Copilot aident les salariés à rédiger, coder, concevoir ou analyser plus vite. Elles améliorent la productivité mais posent aussi des questions sur l’automatisation et la fiabilité.",
       analysis: "Mon expérience avec un ATS m’a montré comment l’IA facilite le travail des recruteurs. Même performante, elle doit être supervisée par un humain pour éviter les erreurs ou biais. Dans le développement web, je vois l’IA comme un outil complémentaire.",
       icon: <Globe className="w-8 h-8 text-purple-400 mr-4" />,
-      powerpointLink: "public/IA Travail.pptx",
+      powerpointLink: "IA Travail.pptx",
       articles: [
         {
           title: "L’intelligence artificielle bouscule le monde du travail : 68 % des actifs utilisent déjà l’IA",
@@ -53,7 +53,7 @@ const TechWatch = () => {
       summary: "De nombreux fabricants négligent la sécurité des appareils connectés. Les experts recommandent d’intégrer la cybersécurité dès la conception (security by design).",
       analysis: "Cette veille m’a montré que la cybersécurité concerne autant les entreprises que les particuliers. Dans mes projets, je devrai appliquer ces bonnes pratiques pour protéger les utilisateurs.",
       icon: <TrendingUp className="w-8 h-8 text-blue-400 mr-4" />,
-      powerpointLink: "public/Cybersecurite_IoT.pptx",
+      powerpointLink: "Cybersecurite_IoT.pptx",
       articles: [
         {
           title: "Forecast: 28 milliards d’appareils IoT protégés d’ici 2028",
