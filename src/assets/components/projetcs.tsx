@@ -96,40 +96,43 @@ const Projects = () => {
       category: "Full Stack"
     },  
     {
-      title: "worldpress",
-      description: "Mon projet personnel s’appelle “ShopZone”. C’est un site e-commerce où les utilisateurs peuvent",
-      image: "WordPress.png",
-      technologies: ["HTML", "React", "TypeScript", "Vite", "Tailwind CSS", "bootstrap"],
+      title: "worldpress E-Enseignement",
+      description: "Projet académique de création d’un site éducatif sous WordPress, proposant des cours, exercices et ressources pour les étudiants, avec gestion des membres et fonctionnalités interactives.",      image: "WordPress.png",
+      technologies: ["WordPress", "PHP", "HTML", "CSS", "GitHub", "Trello", "Figma", "Canva"],
       features: [
-        "Parcourir et acheter des produits",
-        "Ajouter des produits à un panier",
-        "Supprimer des produits du panier",
-        "Voir le total des commandes sélectionnées",
+      "Présentation de l’équipe et des partenaires",
+      "Pages de cours et exercices avec exécution en ligne",
+      "Formulaire de contact fonctionnel",
+      "Extensions WordPress pour membres, géolocalisation, chatbot",
+      "Gestion du projet avec Gantt et PERT"
       ],
-      github: "https://github.com/Jiane77/Shop",
       demo: "PresentationWP.pdf",
-      category: "Frontend"
+      category: "Fullstack"
     },  
     {
       title: "Tableau de synthèse",
       description: "Tableau de synthèse des compétences professionnelles au format Excel.",
-      image: "https://servimg.eyrolles.com/static/media/1659/9782409001659_internet_h1400.jpg",
+      image: "https://www.ales.fr/wp-content/uploads/2017/10/Vie-quotidienne-%C3%89tudier.jpg",
       technologies: [], 
       features: [],               
       github: "",             
-      demo: "Tableau de synthèse.xlsx",
+      demo: "portfolio-bts-sio/public/tableau_synthese_2026.xlsx",
       category: "Tableau de synthèse"
     },
     {
-      title: "Prtfolio",
-      description: "le portfolio",
-      image: "https://servimg.eyrolles.com/static/media/1659/9782409001659_internet_h1400.jpg",
-      technologies: [], 
-      features: [],               
-      github: "https://github.com/Jiane77/portfolio-bts-sio",             
-      demo: "Tableau de synthèse.xlsx",
-      category: "Frontend"
-    }
+  title: "Portfolio",
+  description: "Mon portfolio personnel présentant mes projets, compétences et expériences.",
+  image: "https://ssl.sitew.org/images/blog/articles/cover/figma-creer-portfolio.png",
+  technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+  features: [
+    "Présentation de mes projets",
+    "Section contact fonctionnelle",
+    "Design responsive et moderne"
+  ],
+  github: "https://github.com/Jiane77/portfolio-bts-sio",
+  demo: "https://jiane77-portfolio.vercel.app/",
+  category: "Frontend"
+}
   ]
 
   const categories = ["Tous", "Full Stack", "Frontend", "Backend", "Documentation", "Tableau de synthèse"]
