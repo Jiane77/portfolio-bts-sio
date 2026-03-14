@@ -38,7 +38,7 @@ const Projects = () => {
     {
       title: "GLPI - Documentation",
       description: "J’ai réalisé une documentation complète sur GLPI, un outil de gestion de parc informatique et de support technique. Ce document explique l’installation, la configuration et les principales fonctionnalités du logiciel.",
-      image: "public/GLPI.png",
+      image: "GLPI.png",
       technologies: ["GLPI"],
       features: [
         "Présentation et objectifs de GLPI",
@@ -91,8 +91,7 @@ const Projects = () => {
         "Paiement en ligne (Visa, PayPal, Apple Pay)",
         "Gestion automatique des commandes et factures"
       ],
-      github: "https://github.com/ton-compte/juicelab",
-      demo:"",
+      demo:"shopify.pdf",
       category: "Full Stack"
     },  
     {
@@ -116,7 +115,7 @@ const Projects = () => {
       technologies: [], 
       features: [],               
       github: "",             
-      demo: "portfolio-bts-sio/public/tableau_synthese_2026.xlsx",
+      demo: "tableau_synthese_2026.xlsx",
       category: "Tableau de synthèse"
     },
     {
@@ -130,7 +129,7 @@ const Projects = () => {
     "Design responsive et moderne"
   ],
   github: "https://github.com/Jiane77/portfolio-bts-sio",
-  demo: "https://jiane77-portfolio.vercel.app/",
+  demo: "https://portfolio-bts-pecciixwe-jiane77s-projects.vercel.app/",
   category: "Frontend"
 }
   ]

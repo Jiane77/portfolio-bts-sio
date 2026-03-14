@@ -22,7 +22,7 @@ const TechWatch = () => {
           title: "L’intelligence artificielle bouscule le monde du travail : 68 % des actifs utilisent déjà l’IA",
           source: "La Dépêche, 09/04/2025",
           link: "https://www.ladepeche.fr/2025/04/09/lintelligence-artificielle-bouscule-le-monde-du-travail-entre-acceleration-et-inquietudes-12626431.php?utm_source=chatgpt.com",
-          image: "/public/ia1.jpg"
+          image: "ia1.jpg"
         },
         {
           title: "Publication du rapport “IA et Futur du Travail”",
@@ -34,13 +34,13 @@ const TechWatch = () => {
           title: "Nouvelles compétences et intelligence artificielle transforment le monde du travail",
           source: "FMI, 15/01/2026",
           link: "https://www.imf.org/fr/blogs/articles/2026/01/14/new-skills-and-ai-are-reshaping-the-future-of-work?utm_source=chatgpt.com",
-          image: "/public/ia3.jpg"
+          image: "ia3.jpg"
         },
         {
           title: "L’IA pourrait affecter 40 % des emplois dans le monde selon l’ONU",
           source: "Euronews, 08/04/2025",
           link: "https://fr.euronews.com/next/2025/04/08/lia-pourrait-selon-lonu-affecter-40-des-emplois-dans-le-monde-au-cours-de-la-prochaine-dec?utm_source=chatgpt.com",
-          image: "/public/ia4.webp"
+          image: "ia4.webp"
         }
       ],
       gradient: "from-purple-500/10 to-pink-500/10",
@@ -59,25 +59,25 @@ const TechWatch = () => {
           title: "Forecast: 28 milliards d’appareils IoT protégés d’ici 2028",
           source: "Advanced Television, 17/02/2025",
           link: "https://www.advanced-television.com/2025/02/17/forecast-28bn-iot-devices-protected-by-cybersecurity-by-2028/?utm_source=chatgpt.com",
-          image: "/public/iot1.png"
+          image: "iot1.png"
         },
         {
           title: "Nearly half of network connections come from high‑risk IoT and IT devices",
           source: "TechRadar, 29/10/2025",
           link: "https://www.techradar.com/pro/security/nearly-half-of-network-connections-come-from-high-risk-iot-and-it-devices-so-make-sure-youre-protected?utm_source=chatgpt.com",
-          image: "/public/iot2.jpg"
+          image: "iot2.jpg"
         },
         {
           title: "Top cybersecurity risks for 2026 : de la désinformation aux attaques IA",
           source: "Tom’s Guide, janvier 2026",
           link: "https://www.tomsguide.com/computing/online-security/from-misinformation-to-ai-powered-cyberattacks-the-top-cybersecurity-risks-for-2026?utm_source=chatgpt.com",
-          image: "/public/iot3.png"
+          image: "iot3.png"
         },
         {
           title: "Global Cybersecurity Outlook 2026 : tendances et risques",
           source: "World Economic Forum, 2025–2026",
           link: "https://www.weforum.org/publications/global-cybersecurity-outlook-2026/in-full/3-the-trends-reshaping-cybersecurity?utm_source=chatgpt.com",
-          image: "/public/iot4.avif"
+          image: "iot4.avif"
         }
       ],
       gradient: "from-blue-500/10 to-indigo-500/10",
