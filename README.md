@@ -46,7 +46,7 @@ Jeu avec gestion des collisions et score
 
 ## 🎯 Objectif
 
-Je recherche une alternance en développement web pour améliorer mes compétences et participer à des projets concrets.
+Je recherche une alternance en développement full stack / cybersécurité pour améliorer mes compétences et participer à des projets concrets.
 
 ---
 
