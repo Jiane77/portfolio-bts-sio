@@ -1,4 +1,4 @@
-# 👩‍💻 Portfolio - Djihane Haroun
+# Portfolio - Djihane Haroun
 
  Étudiante en BTS SIO SLAM  
  Passionnée par le développement web et les nouvelles technologies  
