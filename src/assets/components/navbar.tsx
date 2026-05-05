@@ -20,7 +20,7 @@ const Navbar = () => {
     { name: 'À propos', href: '#about' },
     { name: 'Compétences', href: '#skills' },
     { name: 'Projets', href: '#projects' },
-    { name: 'Stage', href: '#internship' },
+    { name: 'Stages', href: '#internships' },
     { name: 'Veille Tech', href: '#techwatch' },
     { name: 'Contact', href: '#contact' }
   ]
