@@ -10,14 +10,21 @@ const Projects = () => {
   })
 
   const projects = [
-    {
-      title: "Auto-ecole",
-      description: "Mon projet personnel s’appelle “Auto-Ecole”.",
-      image: "https://dwpt1kkww6vki.cloudfront.net/img/transport/autoecole.jpg",
-      technologies: ["PHP", "React", "TypeScript", "Vite", "Tailwind CSS", "bootstrap", "tailwind", "HTML", "CSS"],
-      features: [],
-      github: "https://github.com/Jiane77/auto-ecole",
-      demo: "AutoEcole.pdf",
+         {
+      title: "Castellane auto",
+      description:"J’ai réalisé un site web pour une auto-école permettant de moderniser la gestion des élèves et des heures de conduite. Ce projet comprend un site accessible aux visiteurs ainsi qu’un espace d’administration permettant aux moniteurs de gérer les clients et le planning.",
+      image: "logo.png",
+      technologies: ["PHP,SQL,HTML,Bootstrap,CSS"],
+      features: [
+        "MVC",
+        "Procédure d’installation et de configuration",
+        "Gestion des clients et des moniteurs",
+        "Gestion des heures de conduite et du planning",
+        "Authentification administrateur",
+        "Interface responsive",
+      ],
+      github: "https://github.com/vlndkaizen/PPE",
+      demo: "#lien",
       category: "Full Stack"
     },
     {
@@ -115,7 +122,7 @@ const Projects = () => {
       technologies: [], 
       features: [],               
       github: "",             
-      demo: "tableau_synthese_2026.xlsx",
+      demo: "tableau_synthese_2026f.xlsx",
       category: "Tableau de synthèse"
     },
     {
