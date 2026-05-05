@@ -24,7 +24,7 @@ const Projects = () => {
         "Interface responsive",
       ],
       github: "https://github.com/vlndkaizen/PPE",
-      demo: "#lien",
+      doc: "#lien",
       category: "Full Stack"
     },
     {
@@ -39,7 +39,7 @@ const Projects = () => {
         "Voir le total des commandes sélectionnées",
       ],
       github: "https://github.com/Jiane77/Shop",
-      demo: "https://jiane77-shop-ecommerce-exemple.vercel.app/",
+      doc: "https://jiane77-shop-ecommerce-exemple.vercel.app/",
       category: "Frontend"
     },
     {
@@ -54,7 +54,7 @@ const Projects = () => {
         "Fonctionnalités principales expliquées en détail",
       ],
       github: "https://github.com/Jiane77/Documentation-GLPI",
-      demo: "documentationGLPI.pdf",
+      doc: "documentationGLPI.pdf",
       category: "Documentation"
     },
     {
@@ -69,7 +69,7 @@ const Projects = () => {
         "Interface simple et claire",
       ],
       github: "https://github.com/Jiane77/jeux",
-      demo: "CGame.png",
+      doc: "CGame.png",
       category: "Backend"
     },
     {
@@ -83,7 +83,7 @@ const Projects = () => {
         "Score en temps réel",
       ],
       github: "https://github.com/Jiane77/Snake",
-      demo:"Snake-en-C-Console-Windows.pptx",
+      doc:"Snake-en-C-Console-Windows.pptx",
       category: "Backend"
     },
     {
@@ -98,7 +98,7 @@ const Projects = () => {
         "Paiement en ligne (Visa, PayPal, Apple Pay)",
         "Gestion automatique des commandes et factures"
       ],
-      demo:"shopify.pdf",
+      doc:"shopify.pdf",
       category: "Full Stack"
     },  
     {
@@ -112,7 +112,7 @@ const Projects = () => {
       "Extensions WordPress pour membres, géolocalisation, chatbot",
       "Gestion du projet avec Gantt et PERT"
       ],
-      demo: "PresentationWP.pdf",
+      doc: "PresentationWP.pdf",
       category: "Fullstack"
     },  
     {
@@ -122,7 +122,7 @@ const Projects = () => {
       technologies: [], 
       features: [],               
       github: "",             
-      demo: "tableau_synthese_2026f.xlsx",
+      doc: "tableau_synthese_2026f.xlsx",
       category: "Tableau de synthèse"
     },
     {
@@ -136,7 +136,7 @@ const Projects = () => {
     "Design responsive et moderne"
   ],
   github: "https://github.com/Jiane77/portfolio-bts-sio",
-  demo: "https://portfolio-bts-sio-phi.vercel.app/",
+  doc: "https://portfolio-bts-sio-phi.vercel.app/",
   category: "Frontend"
 }
   ]
@@ -291,9 +291,9 @@ const Projects = () => {
                     </motion.a>
                   )}
 
-                  {project.demo && (
+                  {project.doc && (
                     <motion.a
-                      href={project.demo}
+                      href={project.doc}
                       className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-sm transition-all duration-200 ${
                         project.category === "Tableau de synthèse"
                           ? "bg-green-500/20 text-green-300 hover:bg-green-500/30 hover:text-green-200"
