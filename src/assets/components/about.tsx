@@ -149,7 +149,7 @@ const About = () => {
               <div className="text-gray-400 text-sm">Maîtrisées</div>
             </div>
              <div className="text-center bg-slate-700/30 rounded-xl p-6">
-              <div className="text-3xl font-bold mb-2">200+</div>
+              <div className="text-3xl font-bold mb-2">250+</div>
               <div className="text-white font-medium">Commit</div>
               <div className="text-gray-400 text-sm">réalisés</div>
             </div>
