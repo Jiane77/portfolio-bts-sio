@@ -18,6 +18,12 @@ const TechWatch = () => {
       icon: <Globe className="w-8 h-8 text-purple-400 mr-4" />,
       powerpointLink: "/IA Travail.pptx",
       articles: [
+         {
+         title: "L’IA s’impose dans les offres d’emploi en France pendant que le marché ralentit",
+         source: "Indeed Hiring Lab ,01/04/2026",
+         link: "https://www.hiringlab.org/",
+         image: "iarecrutement.png",
+        },
         {
           title: "L’intelligence artificielle bouscule le monde du travail : 68 % des actifs utilisent déjà l’IA",
           source: "La Dépêche, 09/04/2025",
@@ -36,12 +42,7 @@ const TechWatch = () => {
           link: "https://www.imf.org/fr/blogs/articles/2026/01/14/new-skills-and-ai-are-reshaping-the-future-of-work?utm_source=chatgpt.com",
           image: "ia3.jpg"
         },
-        {
-          title: "L’IA pourrait affecter 40 % des emplois dans le monde selon l’ONU",
-          source: "Euronews, 08/04/2025",
-          link: "https://fr.euronews.com/next/2025/04/08/lia-pourrait-selon-lonu-affecter-40-des-emplois-dans-le-monde-au-cours-de-la-prochaine-dec?utm_source=chatgpt.com",
-          image: "ia4.webp"
-        }
+      
       ],
       gradient: "from-purple-500/10 to-pink-500/10",
       border: "border-purple-500/20"
