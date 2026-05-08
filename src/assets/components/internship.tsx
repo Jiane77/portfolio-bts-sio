@@ -137,6 +137,30 @@ const Internship = () => {
                   ))}
                 </div>
               </div>
+                <div className="bg-slate-700/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-600/50 mt-8">
+                <h4 className="text-xl font-semibold text-white mb-6">Rapport de stage</h4>
+                <p className="text-gray-400 text-sm italic mb-4">
+                  Le rapport complet est disponible.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <a
+                    href="Bilan_Stage_Layan.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className=" bg-purple-400 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
+                  >
+                  Consulter le rapport
+                  </a>
+
+                  <a
+                    href="bilan_stage_Layan.pptx"
+                    download
+                    className=" bg-purple-400 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
+                  >
+                  Télécharger le PDF
+                  </a>
+                </div>
+              </div>
             </motion.div>
 
             <motion.div variants={itemVariants} className="space-y-8">
@@ -181,6 +205,7 @@ const Internship = () => {
                   et m'a donné une vision claire de mes objectifs professionnels.
                 </p>
               </div>
+              
 
             </motion.div>
           </div>
