@@ -28,9 +28,9 @@ const Skills = () => {
       color: "from-green-500 to-emerald-500",
       skills: [
         { name: "PHP", level: 70 },
-        { name: "Symfony", level: 70 },
-        { name: "Twig", level: 80 },
-        { name: "Node.js", level: 65 },
+        { name: "Symfony", level: 50 },
+        { name: "Twig", level: 60 },
+        { name: "C", level: 40 },
         { name: "Java", level: 60 },
       ],
     },
@@ -40,7 +40,6 @@ const Skills = () => {
       color: "from-purple-500 to-pink-500",
       skills: [
         { name: "MySQL", level: 85 },
-        { name: "SQL Server", level: 65 },
       ],
     },
     {
@@ -55,6 +54,8 @@ const Skills = () => {
         { name: "VS Code", level: 90 },
         {name:"Wamp",level:85},
         {name:"Docker",level:50},
+        {name:"CMS",level:40},
+
       ],
     },
   ];
