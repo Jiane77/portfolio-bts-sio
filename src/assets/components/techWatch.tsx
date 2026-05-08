@@ -16,7 +16,7 @@ const TechWatch = () => {
       summary: "Les IA génératives comme ChatGPT ou Copilot aident les salariés à rédiger, coder, concevoir ou analyser plus vite. Elles améliorent la productivité mais posent aussi des questions sur l’automatisation et la fiabilité.",
       analysis: "Mon expérience avec un ATS m’a montré comment l’IA facilite le travail des recruteurs. Même performante, elle doit être supervisée par un humain pour éviter les erreurs ou biais. Dans le développement web, je vois l’IA comme un outil complémentaire.",
       icon: <Globe className="w-8 h-8 text-purple-400 mr-4" />,
-      powerpointLink: "IA Travail.pptx",
+      powerpointLink: "/IA Travail.pptx",
       articles: [
         {
           title: "L’intelligence artificielle bouscule le monde du travail : 68 % des actifs utilisent déjà l’IA",
@@ -45,43 +45,6 @@ const TechWatch = () => {
       ],
       gradient: "from-purple-500/10 to-pink-500/10",
       border: "border-purple-500/20"
-    },
-    {
-      title: "Cybersécurité des objets connectés (IoT)",
-      subtitle: "Les objets connectés, nouvelle cible des cyberattaques",
-      why: "La cybersécurité est un sujet fondamental. Les objets connectés (caméras, montres, assistants vocaux) sont de plus en plus présents, mais peuvent devenir des portes d’entrée pour les cyberattaques.",
-      summary: "De nombreux fabricants négligent la sécurité des appareils connectés. Les experts recommandent d’intégrer la cybersécurité dès la conception (security by design).",
-      analysis: "Cette veille m’a montré que la cybersécurité concerne autant les entreprises que les particuliers. Dans mes projets, je devrai appliquer ces bonnes pratiques pour protéger les utilisateurs.",
-      icon: <TrendingUp className="w-8 h-8 text-blue-400 mr-4" />,
-      powerpointLink: "Cybersecurite_IoT.pptx",
-      articles: [
-        {
-          title: "Forecast: 28 milliards d’appareils IoT protégés d’ici 2028",
-          source: "Advanced Television, 17/02/2025",
-          link: "https://www.advanced-television.com/2025/02/17/forecast-28bn-iot-devices-protected-by-cybersecurity-by-2028/?utm_source=chatgpt.com",
-          image: "iot1.png"
-        },
-        {
-          title: "Nearly half of network connections come from high‑risk IoT and IT devices",
-          source: "TechRadar, 29/10/2025",
-          link: "https://www.techradar.com/pro/security/nearly-half-of-network-connections-come-from-high-risk-iot-and-it-devices-so-make-sure-youre-protected?utm_source=chatgpt.com",
-          image: "iot2.jpg"
-        },
-        {
-          title: "Top cybersecurity risks for 2026 : de la désinformation aux attaques IA",
-          source: "Tom’s Guide, janvier 2026",
-          link: "https://www.tomsguide.com/computing/online-security/from-misinformation-to-ai-powered-cyberattacks-the-top-cybersecurity-risks-for-2026?utm_source=chatgpt.com",
-          image: "iot3.png"
-        },
-        {
-          title: "Global Cybersecurity Outlook 2026 : tendances et risques",
-          source: "World Economic Forum, 2025–2026",
-          link: "https://www.weforum.org/publications/global-cybersecurity-outlook-2026/in-full/3-the-trends-reshaping-cybersecurity?utm_source=chatgpt.com",
-          image: "iot4.avif"
-        }
-      ],
-      gradient: "from-blue-500/10 to-indigo-500/10",
-      border: "border-blue-500/20"
     }
   ]
 
