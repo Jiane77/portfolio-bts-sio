@@ -49,7 +49,7 @@ const Hero = () => {
 
             <p className="text-lg sm:text-xl md:text-2xl text-gray-300">
               Passionnée par le développement web et les nouvelles technologies,
-              je suis analyste développeuse et je conçois des applications modernes
+              je suis développeuse full stack et je conçois des applications modernes
               et performantes.
             </p>
 
