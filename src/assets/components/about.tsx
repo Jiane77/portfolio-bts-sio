@@ -120,7 +120,7 @@ const About = () => {
                     <div>
                       <h4 className="text-white font-medium">Long terme</h4>
                       <p className="text-gray-300 text-sm">
-                        Devenir développeuse full-stack senior ou analyste développeuse
+                        Devenir développeuse full-stack
                       </p>
                     </div>
                   </div>
