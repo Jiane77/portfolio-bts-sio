@@ -102,7 +102,7 @@ const Projects = () => {
       category: "Full Stack"
     },  
     {
-      title: "worldpress E-Enseignement",
+      title: "WordPress E-Enseignement",
       description: "Projet académique de création d’un site éducatif sous WordPress, proposant des cours, exercices et ressources pour les étudiants, avec gestion des membres et fonctionnalités interactives.",      image: "WordPress.png",
       technologies: ["WordPress", "PHP", "HTML", "CSS", "GitHub", "Trello", "Figma", "Canva"],
       features: [
