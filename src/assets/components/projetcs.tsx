@@ -24,7 +24,7 @@ const Projects = () => {
         "Interface responsive",
       ],
       github: "https://github.com/vlndkaizen/PPE",
-      doc: "E6_Castellane_Auto (1).pdf",
+      doc: "/E6_Castellane_Auto (1).pdf",
       category: "Full Stack"
     },
     {
