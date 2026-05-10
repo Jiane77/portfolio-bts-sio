@@ -102,7 +102,7 @@ const About = () => {
                     <div>
                       <h4 className="text-white font-medium">Court terme</h4>
                       <p className="text-gray-300 text-sm">
-                        Réussir mon BTS et obtenir une alternance en développement web
+                        Réussir mon BTS et obtenir une alternance en développement full stack
                       </p>
                     </div>
                   </div>
