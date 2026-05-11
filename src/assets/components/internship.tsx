@@ -336,7 +336,7 @@ const Internship = () => {
               <div className="bg-gradient-to-br from-orange-500/10 to-yellow-500/10 rounded-2xl p-8 border border-orange-500/20">
                 <h4 className="text-xl font-semibold text-white mb-6">Technologies Utilisées</h4>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-                                    {['HTML5', 'CSS', 'PHP', 'JavaScript', 'Bootstrap', 'Git', 'Symfony'].map((tech) => (
+                                    {['HTML5', 'CSS', 'JavaScript', 'Bootstrap', 'Git'].map((tech) => (
                     <div key={tech} className="bg-slate-800/50 text-center py-2 px-3 rounded-lg">
                       <span className="text-gray-300 text-sm font-medium">{tech}</span>
                     </div>
