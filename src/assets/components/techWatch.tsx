@@ -28,13 +28,13 @@ const TechWatch = () => {
           title: "Automatisation du recrutement",
           source: "Layan 2025",
           link: "https://www.layan.eu/blog/article/automatisation-recrutement-tpe-pme?",
-          image: "ia1.jpg"
+          image: "https://peoplespheres.com/wp-content/uploads/2025/04/logo-layan.png"
         },
         {
           title: "Publication du rapport “IA et Futur du Travail”",
           source: "Human Technology Foundation, 27/01/2025",
           link: "https://www.human-technology-foundation.org/fr-news/publication-du-rapport-ia-et-futur-du-travail---evenement-27-janvier-2025?utm_source=chatgpt.com",
-          image: "https://peoplespheres.com/wp-content/uploads/2025/04/logo-layan.png"
+          image: "IA et Futur du Travail.jpg"
         },
         {
           title: "Nouvelles compétences et intelligence artificielle transforment le monde du travail",
