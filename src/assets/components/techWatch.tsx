@@ -129,13 +129,8 @@ const TechWatch = () => {
                 </p>
 
                 <p>
-                  <b>Pourquoi ces choix ?</b><br />
-                  J’ai choisi de concentrer ma veille sur l’intelligence artificielle et la
-                  cybersécurité des objets connectés, car ce sont deux domaines majeurs en pleine
-                  expansion. L’IA transforme profondément les méthodes de travail tandis que la
-                  cybersécurité est devenue essentielle face à l’augmentation des cybermenaces.
-                  Ces thématiques sont directement liées à mon projet professionnel dans le
-                  développement web.
+              <b>Pourquoi ce choix ?</b><br />
+                 J’ai choisi de concentrer ma veille sur l’intelligence artificielle dans le monde du travail, car il s’agit d’un domaine en pleine expansion. L’IA transforme profondément les méthodes de travail, automatise certaines tâches et modifie les compétences attendues dans de nombreux métiers. Cette thématique est directement liée à mon projet professionnel dans le développement web, car les outils basés sur l’intelligence artificielle prennent une place de plus en plus importante dans les pratiques des développeurs et des entreprises.
                 </p>
               </div>
             </div>
