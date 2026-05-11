@@ -25,16 +25,16 @@ const TechWatch = () => {
          image: "iarecrutement.png",
         },
         {
-          title: "L’intelligence artificielle bouscule le monde du travail : 68 % des actifs utilisent déjà l’IA",
-          source: "La Dépêche, 09/04/2025",
-          link: "https://www.ladepeche.fr/2025/04/09/lintelligence-artificielle-bouscule-le-monde-du-travail-entre-acceleration-et-inquietudes-12626431.php?utm_source=chatgpt.com",
+          title: "Automatisation du recrutement",
+          source: "Layan 2025",
+          link: "https://www.layan.eu/blog/article/automatisation-recrutement-tpe-pme?",
           image: "ia1.jpg"
         },
         {
           title: "Publication du rapport “IA et Futur du Travail”",
           source: "Human Technology Foundation, 27/01/2025",
           link: "https://www.human-technology-foundation.org/fr-news/publication-du-rapport-ia-et-futur-du-travail---evenement-27-janvier-2025?utm_source=chatgpt.com",
-          image: "IA et Futur du Travail.jpg"
+          image: "https://peoplespheres.com/wp-content/uploads/2025/04/logo-layan.png"
         },
         {
           title: "Nouvelles compétences et intelligence artificielle transforment le monde du travail",
