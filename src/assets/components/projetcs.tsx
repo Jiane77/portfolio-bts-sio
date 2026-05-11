@@ -90,7 +90,7 @@ const Projects = () => {
       title: "JuiceLab",
       description: "Boutique e-commerce réalisée avec Shopify pour la vente de jus frais artisanaux.",
       image: "shopify.jpg",
-      technologies: ["Shopify", "HTML", "CSS", "JavaScript"],
+      technologies: ["Shopify"],
       features: [
         "Catalogue de produits",
         "Ajout et suppression du panier",
