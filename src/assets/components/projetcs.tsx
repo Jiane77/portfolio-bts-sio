@@ -90,7 +90,7 @@ const Projects = () => {
       title: "JuiceLab",
       description: "Boutique e-commerce réalisée avec Shopify pour la vente de jus frais artisanaux.",
       image: "shopify.jpg",
-      technologies: ["Shopify", "Liquid", "HTML", "CSS", "JavaScript"],
+      technologies: ["Shopify", "HTML", "CSS", "JavaScript"],
       features: [
         "Catalogue de produits",
         "Ajout et suppression du panier",
@@ -104,7 +104,7 @@ const Projects = () => {
     {
       title: "WordPress E-Enseignement",
       description: "Projet académique de création d’un site éducatif sous WordPress, proposant des cours, exercices et ressources pour les étudiants, avec gestion des membres et fonctionnalités interactives.",      image: "WordPress.png",
-      technologies: ["WordPress", "PHP", "HTML", "CSS", "GitHub", "Trello", "Figma", "Canva"],
+      technologies: ["WordPress","HTML", "CSS", "GitHub", "Trello", "Figma", "Canva"],
       features: [
       "Présentation de l’équipe et des partenaires",
       "Pages de cours et exercices avec exécution en ligne",
